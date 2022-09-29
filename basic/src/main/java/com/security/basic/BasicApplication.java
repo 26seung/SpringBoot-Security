@@ -1,13 +1,13 @@
-package com.security.login;
+package com.security.basic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LoginApplication {
+public class BasicApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoginApplication.class, args);
+		SpringApplication.run(BasicApplication.class, args);
 	}
 
 }
